@@ -22,7 +22,7 @@ public class lsd {
                 //!attention with offset 1
                 count[a[i].charAt(d)+1]++;
             }
-            for(int i=0;i<R-1;i++){
+            for(int i=0;i<R+1;i++){
                 count[i+1]+=count[i];
             }
 
